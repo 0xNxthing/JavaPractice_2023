@@ -1,0 +1,17 @@
+public class Estate {
+    private String address;
+    private double price;
+
+    public Estate(String address, double price) {
+        this.address = address;
+        this.price = price;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+}
